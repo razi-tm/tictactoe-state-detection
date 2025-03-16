@@ -91,7 +91,7 @@ def check_state(image_path):
     return check_winner(board)
 
 if __name__ == "__main__":
-    image_path = "/home/rtm/Downloads/dooz/Data/O Wins.png"  # Replace with your image path
+    image_path = "path/to/image.jpg"  # Replace with your image path
     result = check_state(image_path)
     print("Result:", result)
 
